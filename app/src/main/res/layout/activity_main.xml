@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regristrasi Data"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <EditText
+        android:id="@+id/inputemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Masukkan email kampus"
+        android:textSize="16dp">
+    </EditText>
+    <EditText
+        android:id="@+id/inputnama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Masukkan nama lengkap"
+        android:textSize="16dp">
+    </EditText>
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Masukkan username(NIM)"
+        android:textSize="16dp">
+    </EditText>
+    <EditText
+        android:id="@+id/psswrd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Masukkan password"
+        android:textSize="16dp">
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/tombolsubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="submit">
+        </Button>
+        <Button
+            android:id="@+id/tombolsubmit2"
+            style="@style/btn_style"
+            android:text="Show">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
